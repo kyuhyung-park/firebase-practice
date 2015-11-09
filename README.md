@@ -1,5 +1,7 @@
 # Firebase Practice
 
+- video : https://youtu.be/1O0fR3kazMA
+
 ## install
 ```
 <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
