@@ -1,7 +1,5 @@
 # Firebase Practice
 
-- video : https://youtu.be/1O0fR3kazMA
-
 ## install
 ```
 <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
@@ -9,7 +7,7 @@
 
 ## Connection
 ```
-var ref = new Firebase("https://test--firebase.firebaseio.com/web/saving-data/fireblog");
+var ref = new Firebase("https://<YOUR-FIREBASE-APP>/web/saving-data/fireblog");
 var usersRef = ref.child("users");
 ```
 
@@ -42,3 +40,5 @@ ref.child("users/gracehop/date_of_birth").on("value", function(snapshot) {
   console.log("The read failed: " + errorObject.code);
 });
 ```
+
+- video ( install ~ Read Data ) : https://youtu.be/1O0fR3kazMA
